@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Security-Policy" content="connect-src 'self' https://dss0.bdstatic.com; form-action 'self'; report-uri /report">
+    <title>Document</title>
+</head>
+<body>
+    <div>This is content</div>
+    <img src="https://dss2.bdstatic.com/kfoZeXSm1A5BphGlnYG/icon/weather/aladdin/png_18/a2.png" alt="png">
+    <form action="http://baidu.com">
+        <button type="submit">提交</button>
+    </form>
+    <script>
+        console.log("inline js");
+        fetch("http://baidu.com");
+    </script>
+    <script src="script.js"></script>
+    <script src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/js/lib/jquery-1-cc52697ab1.10.2.js"></script>
+</body>
+</html>
